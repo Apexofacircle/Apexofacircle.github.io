@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="index_style.css"> </head>
+<script>
+function openNav() {
+	document.getElementById("mySidenav").style.width = "15%";
+	document.getElementById("main").style.marginLeft = "10%";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+	document.getElementById("main").style.marginLeft = "0";
+}
+window.onload = function() {
+	closeNav();
+}
+
+</script>
+
+<body>
+	<!--TopBar-->
+	<TopBar> <img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()">
+		<a href="https://github.com/Apexofacircle"> <img src="/Icons/github-line.png" alt="Github"> </a>
+		<a href="https://www.instagram.com/vanadis_photo/"> <img src="/Icons/instagram-line.png" alt="Instagram"> </a>
+	</TopBar>
+
+	<!-- Sidebar -->
+	<SideNav id="mySidenav" class="sidenav">
+		<h1 onclick="closeNav()" class="SideBarClose">X</h1> <img src="/MainPagePhotos/BirdHouse.jpg" alt="Icon" class="TopImage">
+		<a href="#Main" class="HomeButton" onclick="closeNav()"> <img src="/Icons/home-3-line.png" alt="HomeButton"> </a>
+		<a href="#" class="HomeButton"> <img src="/Icons/landscape-line.png" alt="Landscape"> </a>
+		<a href="#" class="HomeButton"> <img src="/Icons/camera-2-line.png" alt="HomeButton"> </a>
+		<a href="#" class="HomeButton"> <img src="/Icons/slideshow-line.png" alt="HomeButton"> </a>
+	</SideNav>
+
+    <!-- Top Image Display-->
+	<div id="main" onclick="closeNav()">
+		<div class="c-heroImageGrid">
+			<div class="container">
+				<div class="column" onclick="openNav()"></div>
+				<div class="column">
+					<div class="row"></div>
+					<div class="row">
+						<div>
+							<div class="text">
+								<h6> Add A Photo <br> All of my photos in one place </h6>
+								<p> Scroll down for more content V </p>
+							</div>
+						</div>
+						<div></div>
+					</div>
+					<div class="row"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- PhotoGrid-->
+	<h1 class="HeadderText" id="Main">Latest:</h1>
+	<div class="row">
+		<div class="column"> <img src="/MainPagePhotos/Firework1.jpg" alt="Snow" style="width:100%"> </div>
+		<div class="column"> <img src="/MainPagePhotos/SunsetPerson.JPG" alt="Forest" style="width:100%"> </div>
+		<div class="column"> <img src="/MainPagePhotos/PatternsAndRep.jpg" alt="Mountains" style="width:100%"> </div>
+	</div>
+
+   <!--About-->
+
+    <h1 class="HeadderText">About:</h1>
+ 
+    <p>I am a software developer dedicated to OpenSource. I built this website to showcase my projects and Photography. <br>
+    The only parts of this website that are not free to use are the photographs. <br>
+    I encourage the use of my code to inspire and teach (and whenever you are too lazy to write it yourself). <br>
+    
+    <br> here are some of my stats: <br></p>
+
+<!--Stats-->
+    <p>HTML</p>
+<div class="containerA">
+  <div class="skills html"></div>
+</div>
+
+<p>CSS</p>
+<div class="containerA">
+  <div class="skills css"></div>
+</div>
+
+<p>C# .Net</p>
+<div class="containerA">
+  <div class="skills cs"></div>
+</div>
+
+<p>Python</p>
+<div class="containerA">
+  <div class="skills python"></div>
+</div>
+
+<p>Photography</p>
+<div class="containerA">
+    <div class="skills photo"></div>
+  </div>
+</body>
+
+<p>Video editing</p>
+<div class="containerA">
+    <div class="skills edit"></div>
+  </div>
+
+<!--Bottom bar (TopBar but on the bottom)-->
+
+<br><br>
+
+  <TopBar> <img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()">
+    <a href="https://github.com/Apexofacircle"> <img src="/Icons/github-line.png" alt="Github"> </a>
+    <a href="https://www.instagram.com/vanadis_photo/"> <img src="/Icons/instagram-line.png" alt="Instagram"> </a>
+</TopBar>
+
+
+</body>
+</html>
