@@ -13,6 +13,10 @@ Top {
 	height: 10%;
 }
 
+.Fixed{
+	position: fixed;
+}
+
 /*SideNav*/
 SideNav {
 	height: 100%;

@@ -25,7 +25,7 @@ window.onload = function() {
 
 <body>
 	<!--TopBar-->
-	<TopBar> <img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()">
+	<TopBar> <img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()" class="Fixed">
 		<a href="https://github.com/Apexofacircle"> <img src="/Icons/github-line.png" alt="Github"> </a>
 		<a href="https://www.instagram.com/vanadis_photo/"> <img src="/Icons/instagram-line.png" alt="Instagram"> </a>
 	</TopBar>
@@ -34,9 +34,9 @@ window.onload = function() {
 	<SideNav id="mySidenav" class="sidenav">
 		<h1 onclick="closeNav()" class="SideBarClose">X</h1> <img src="/MainPagePhotos/BirdHouse.jpg" alt="Icon" class="TopImage">
 		<a href="#Main" class="HomeButton" onclick="closeNav()"> <img src="/Icons/home-3-line.png" alt="HomeButton"> </a>
-		<a href="#" class="HomeButton"> <img src="/Icons/landscape-line.png" alt="Landscape"> </a>
-		<a href="#" class="HomeButton"> <img src="/Icons/camera-2-line.png" alt="HomeButton"> </a>
-		<a href="#" class="HomeButton"> <img src="/Icons/slideshow-line.png" alt="HomeButton"> </a>
+		<a href="#About" class="HomeButton" onclick="closeNav()"> <img src="/Icons/slideshow-line.png" alt="About Button"> </a>
+		<a href="#" class="HomeButton"> <img src="/Icons/code-s-slash-line.png" alt="Landscape"> </a>
+		<a href="/Photo.html" class="HomeButton"> <img src="/Icons/camera-3-line.png" alt="HomeButton"> </a>s
 	</SideNav>
 
     <!-- Top Image Display-->
@@ -72,7 +72,7 @@ window.onload = function() {
 
    <!--About-->
 
-    <h1 class="HeadderText">About:</h1>
+    <h1 class="HeadderText" id="About">About:</h1>
  
     <p>I am a software developer dedicated to OpenSource. I built this website to showcase my projects and Photography. <br>
     The only parts of this website that are not free to use are the photographs. <br>
