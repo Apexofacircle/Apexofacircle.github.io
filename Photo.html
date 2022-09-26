@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="PhotoGrid_style.css">
-</head>
-<script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "15%";
-        document.getElementById("main").style.marginLeft = "10%";
-    }
-    
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-    }
-    window.onload = function() {
-        closeNav();
-    }
-    
-    </script>
-<body>
-
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="/JavaScript.js"></script>
+  <body>
     <!--TopBar-->
-	<TopBar> 
-		<img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()" class="Fixed">
-		<img src="/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()">
-		<a href="https://github.com/Apexofacircle"> <img src="/Icons/github-line.png" alt="Github"> </a>
-		<a href="https://www.instagram.com/vanadis_photo/"> <img src="/Icons/instagram-line.png" alt="Instagram"> </a>
-	</TopBar>
-
-	<!-- Sidebar -->
-	<SideNav id="mySidenav" class="sidenav">
-		<h1 onclick="closeNav()" class="SideBarClose">X</h1> <img src="/MainPagePhotos/BirdHouse.jpg" alt="Icon" class="TopImage">
-		<a href="index.html" class="HomeButton" onclick="closeNav()"> <img src="/Icons/home-3-line.png" alt="HomeButton"> </a>
-		<a href="index.html#About" class="HomeButton" onclick="closeNav()"> <img src="/Icons/slideshow-line.png" alt="About Button"> </a>
-		<a href="/UnderConstruction.html" class="HomeButton"> <img src="/Icons/code-s-slash-line.png" alt="Landscape"> </a>
-		<a href="/Photo.html" class="HomeButton"> <img src="/Icons/camera-3-line.png" alt="HomeButton"> </a>s
-	</SideNav>
-
-
-    <div class="row">
+    <TopBar>
+      <img src="/Resorces/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()" class="Fixed">
+      <img src="/Resorces/Icons/side-bar-line.png" alt="SideBar" onclick="openNav()">
+      <a href="https://github.com/Apexofacircle">
+        <img src="/Resorces/Icons/github-line.png" alt="Github">
+      </a>
+      <a href="https://www.instagram.com/vanadis_photo/">
+        <img src="/Resorces/Icons/instagram-line.png" alt="Instagram">
+      </a>
+    </TopBar>
+    <!-- Sidebar -->
+    <SideNav id="mySidenav" class="sidenav">
+      <h1 onclick="closeNav()" class="SideBarClose">X</h1>
+      <a href="index.html" class="HomeButton" onclick="closeNav()">
+        <img src="/Resorces/Icons/home-3-line.png" alt="HomeButton">
+      </a>
+      <a href="#About" class="HomeButton" onclick="closeNav()">
+        <img src="/Resorces/Icons/slideshow-line.png" alt="About Button">
+      </a>
+      <a href="/UnderConstruction.html" class="HomeButton">
+        <img src="/Resorces/Icons/code-s-slash-line.png" alt="Landscape">
+      </a>
+      <a href="/Photo.html" class="HomeButton">
+        <img src="/Resorces/Icons/camera-3-line.png" alt="HomeButton">
+      </a>
+    </SideNav>
+    <div class="PhotoDisplay">
+      <div class="row">
         <div class="column">
-            <img src="/GridPhotos/IMG_20220704_230049.jpg">
-            <img src="/GridPhotos/IMG_1878.CR2.jpg">
-            <img src="/GridPhotos/IMG_20220626_092542225.jpg">
-            <img src="/GridPhotos/River3.jpg" alt="">
-            <img src="/MainPagePhotos/IMG_2645.JPG" alt="">
+          <img src="/GridPhotos/IMG_20220704_230049.jpg">
+          <img src="/GridPhotos/IMG_1878.CR2.jpg">
+          <img src="/GridPhotos/IMG_20220626_092542225.jpg">
+          <img src="/GridPhotos/River3.jpg" alt="">
+          <img src="/MainPagePhotos/IMG_2645.JPG" alt="">
         </div>
         <div class="column">
-            <img src="/GridPhotos/IMG_1798.JPG">
-            <img src="/GridPhotos/IMG_1918.CR2.jpg">
-            <img src="/MainPagePhotos/PatternsAndRep.jpg">
-            <img src="/MainPagePhotos/Landscape.jpg">
-            <img src="/GridPhotos/River2.jpg" alt="">
+          <img src="/GridPhotos/IMG_1798.JPG">
+          <img src="/GridPhotos/IMG_1918.CR2.jpg">
+          <img src="/MainPagePhotos/PatternsAndRep.jpg">
+          <img src="/MainPagePhotos/Landscape.jpg">
+          <img src="/GridPhotos/River2.jpg" alt="">
         </div>
         <div class="column">
-            <img src="/GridPhotos/IMG_1899.CR2.jpg">
-            <img src="/GridPhotos/IMG_2746.JPG">
-            <img src="/MainPagePhotos/SunsetPerson.JPG">
-            <img src="/GridPhotos/River.jpg" alt="">
-
+          <img src="/GridPhotos/IMG_1899.CR2.jpg">
+          <img src="/GridPhotos/IMG_2746.JPG">
+          <img src="/MainPagePhotos/SunsetPerson.JPG">
+          <img src="/GridPhotos/River.jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="/GridPhotos/IMG_1899.CR2.jpg">
+          <img src="/GridPhotos/IMG_2746.JPG">
+          <img src="/MainPagePhotos/SunsetPerson.JPG">
+          <img src="/GridPhotos/River.jpg" alt="">
         </div>
       </div>
-
-</body>
+    </div>
+  </body>
 </html>
