@@ -248,8 +248,8 @@ p {
 /*PhotoGrid*/
 .column {
 	float: left;
-	width: 30%;
-	padding: 1%;
+	width: 25%;
+	padding: auto;
 }
 
 /* Clear floats after image containers */
@@ -259,10 +259,19 @@ p {
 	display: table;
 }
 
+.Grid1{
+	margin-left: 20%;
+}
 
 .HeadderText {
 	color: aliceblue;
 	text-align: center;
+}
+
+.Grid1{
+	flex: center;
+	outline:#818181;
+	outline-width: 5%;
 }
 
 /*About*/
