@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(55, 55, 55);
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background:url(/Resources/fiber-g347e92296_1920.jpg);
+}
+.header_image{
+    width: 1000%;
+}
