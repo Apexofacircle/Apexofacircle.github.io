@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 41, 41);
+  font-family: 'Aldrich', sans-serif;
+  color: aliceblue;
+}
+
+.container {
+  position: relative;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(24, 24, 24);
+  box-shadow: 0 0 10px rgba(234, 234, 234, 0.5);
+  margin-top: 5vh;
+  transition: 1s;
+}
+
+.square:hover{
+  width: 50vw;
+  height: 50vh;
+}
+
+.square img{
+  max-height: 100%;
+  max-width: 100%;
+}
+  
